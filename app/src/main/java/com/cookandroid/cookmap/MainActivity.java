@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
                 gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(point, 13));
                 placeMark = new GroundOverlayOptions().image(
-                                BitmapDescriptorFactory.fromResource(R.drawable.potato))
+                                BitmapDescriptorFactory.fromResource(R.drawable.house))
                         .position(point, 500f, 500f);
 
                 gMap.addGroundOverlay(placeMark);
